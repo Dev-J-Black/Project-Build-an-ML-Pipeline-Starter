@@ -1,3 +1,44 @@
+https://wandb.ai/devinjamesblack-western-governors-university/nyc_airbnb/overview/details
+https://github.com/Dev-J-Black/Project-Build-an-ML-Pipeline-Starter/
+
+# NYC Airbnb Price Prediction Pipeline
+
+This project builds a complete **Machine Learning pipeline** for predicting short-term rental prices in New York City using MLflow, Hydra, and Weights & Biases (W&B).
+
+## 🧩 Project Overview
+The pipeline includes the following automated steps:
+1. **Download data** from W&B
+2. **Clean data** (filter price & geofence to NYC area)
+3. **Validate data** using statistical checks
+4. **Split data** into training, validation, and testing sets
+5. **Train a Random Forest Regressor**
+6. **Test and log model performance**
+7. **Release pipeline versioned with MLflow**
+
+## 🚀 Run the Released Pipeline
+mlflow run https://github.com/Dev-J-Black/Project-Build-an-ML-Pipeline-Starter.git \
+  -v v1.0.2 \
+  -P hydra_options="etl.sample='sample2.csv'"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
